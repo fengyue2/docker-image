@@ -2,8 +2,8 @@ FROM ubuntu:18.04
 
 RUN apt-get update -y && apt-get install wget -y
 
-RUN wget http://bit.ly/2ysbOFE/fabric:v1.4.7
+RUN wget https://github.com/hyperledger/fabric/releases/download/v1.4.7/hyperledger-fabric-linux-adm64-1.4.7.tar.gz
 
-RUN wget http://bit.ly/2ysbOFE/fabric-ca:v1.4.7
+RUN wget https://github.com/hyperledger/fabric/releases/download/v1.4.7/hyperledger-fabric-ca-linux-adm64-1.4.7.tar.gz
 
-RUN wget http://bit.ly/2ysbOFE/thirdparty:v0.4.21
+RUN wget https://github.com/hyperledger/fabric/releases/download/v1.4.7/hyperledger-thirdparty-linux-adm64-0.4.21.tar.gz
