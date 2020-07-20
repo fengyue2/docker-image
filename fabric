@@ -1,0 +1,4 @@
+# 需要构建的镜像名称和版本
+FROM http://bit.ly/2ysbOFE/fabric:v1.4.7
+FROM http://bit.ly/2ysbOFE/fabric-ca:v1.4.7
+FROM http://bit.ly/2ysbOFE/thirdparty:v0.4.21
